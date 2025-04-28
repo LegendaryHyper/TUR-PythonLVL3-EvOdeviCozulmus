@@ -13,7 +13,7 @@ class Gamer:
 
     # Görev 4: Mesajı değiştirin
     def introduce(self):
-        print(f"Merhaba, benim adım {self.name}, ve ben {self.age} yaşındayım .")
+        print(f"Merhaba, benim adım {self.name}, ve ben {self.age} yaşındayım.")
 
 
 # Oyuncu sınıfının bir örneğini oluşturma
