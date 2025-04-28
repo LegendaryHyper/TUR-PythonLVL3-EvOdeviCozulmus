@@ -1,30 +1,30 @@
-# "Oyuncu" sınıfının tanımı
-# Görev 2. takmaad alanını ekleyin
-# Görev 3. Eposta alanını ekleyin
-class Oyuncu:
-    def __init__(self, ad, yas, takmaad, eposta):
-        self.ad = ad
-        self.yas = yas
+# "Gamer" sınıfının tanımı
+# Görev 2. nickname alanını ekleyin
+# Görev 3. email alanını ekleyin
+class Gamer:
+    def __init__(self, name, age, nickname, email):
+        self.name = name
+        self.age = age
 
-        self.oyunlar = []
+        self.games = []
 
-    def oyun_ekle(self, oyun):
-        self.oyunlar.append(oyun)
+    def add_game(self, game):
+        self.games.append(game)
 
     # Görev 4: Mesajı değiştirin
-    def tanitim(self):
-        print(f"Merhaba, benim adım {self.ad}, ve ben {self.yas} yaşındayım .")
+    def introduce(self):
+        print(f"Merhaba, benim adım {self.name}, ve ben {self.age} yaşındayım .")
 
 
 # Oyuncu sınıfının bir örneğini oluşturma
-oyuncu1 = Oyuncu("Emre", 14, "PrensEmre", "emre@gmail.com")
+gamer1 = Gamer("Emre", 14, "PrensEmre", "emre@gmail.com")
 
-# Adding games
-oyuncu1.oyun_ekle("Minecraft")
-oyuncu1.oyun_ekle("Dota 2")
+# Oyunları ekleme
+gamer1.add_game("Minecraft")
+gamer1.add_game("Dota 2")
 
 # Bir oyuncunun mini sunumu
-oyuncu1.tanitim()
+gamer1.introduce()
 
 # Favori oyunların çıktısının alınması
-print(f"{oyuncu1.ad} şu oyunları seviyor: {', '.join(oyuncu1.oyunlar)}")
+print(f"{gamer1.name} şu oyunları seviyor: {', '.join(gamer1.games)}")
