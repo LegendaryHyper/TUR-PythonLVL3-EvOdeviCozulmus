@@ -1,3 +1,5 @@
+# NOT: Çözüm, diğer dosyalardan ayrı bir klasör olarak eklenmiştir.
+
 # Oyuncular hakkında bilgiler
 
 Merhaba. Çevrimiçi oyun için bir platform oluşturuyoruz ve oyuncularımız hakkındaki bilgileri depolamak, işlemek, kullanmak için yardıma ihtiyacımız var. Bu yıl size uygulamanız için birkaç görev vereceğiz; bu, bunlardan ilki. README.md dosyasına her zaman bakmayı unutmayın - içinde ayrıntılı gereksinimleri ve ipuçlarını bulacaksınız!
